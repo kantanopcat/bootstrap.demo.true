@@ -115,6 +115,8 @@ nav{
 }
 .gallery-item{
     background-color: #ffffff;
+
+    padding-bottom: 2rem;
 }
 .gallery-item-text{
     background-color: #7e7e7e9a;
