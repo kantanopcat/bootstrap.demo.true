@@ -172,4 +172,39 @@ nav{
   }
 
 
-  
+  /* tab */
+  .table-arit{
+      margin: 10%;
+      justify-items: center;
+      text-align: center;
+  }
+ 
+.tab-card{
+    display: inline-block;
+    background-color: rgb(230, 230, 230);
+    padding : 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
+}
+.tab-card-titel{
+    transform: translate(0px, 50px);
+    transition: .5s ease-in-out;
+}
+.tab-card-item{
+    display: inline-block;
+    transition: .5s ease-in-out;
+    font-family: 'Athiti', sans-serif;
+    opacity: 0;
+    transform: translate(0px, -50px);
+    text-decoration: none;
+}
+
+
+
+.tab-card:hover .tab-card-titel{
+    transform: translate(0px, 0px);
+}
+.tab-card:hover .tab-card-item{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
