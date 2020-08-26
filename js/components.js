@@ -68,6 +68,12 @@ class manu extends HTMLElement {
                                 </li>
 
                 </ul>
+                                    <!-- 3สำนัก -->
+                                    <div class="badge">
+                                        <a href="#"><span class="badge badge-pill badge-primary">IT</span></a> 
+                                        <a href="#"><span class="badge badge-pill badge-primary">ET</span></a> 
+                                        <a href="#"><span class="badge badge-pill badge-primary">LB</span></a> 
+                                    </div>
             </div>
         </nav>
     </div>

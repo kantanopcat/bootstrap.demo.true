@@ -13,6 +13,7 @@ body{
 }
 
 header{
+    margin-top: 5%;
     font-family: 'Prompt', sans-serif;
     color: #000000;
 }
@@ -31,6 +32,10 @@ header h1{
     z-index: 1030;
 }
 
+.badge a{
+    text-decoration: none;
+    font-size: 25px;
+}
 
 nav{
     background: linear-gradient(to bottom right, #ffffff , #25252518);
@@ -105,7 +110,6 @@ nav{
 }
 .gallery-item{
     background-color: #ffffff;
-
     padding-bottom: 2rem;
 }
 .gallery-item-text{
@@ -300,4 +304,34 @@ input:checked ~ .questions {
 
 .wrapper , .wrapper h1{
     font-family: 'Athiti', sans-serif;
+    width: 100%;
+}
+
+
+
+/* ปทต */
+.googleCalendar{
+    display: flex;
+    margin: 0 auto;
+    margin-top : 5%;
+    margin-bottom: 5%;
+    max-width: 500px;
+}
+
+.calendar-titel{
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.calendar-titel h2{
+    font-family: 'Athiti', sans-serif;
+}
+
+/* 3 */
+
+.contract{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
 }
