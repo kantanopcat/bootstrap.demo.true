@@ -84,3 +84,62 @@ class manu extends HTMLElement {
   customElements.define('main-manu', manu);
 
 
+  class footer extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+    
+      <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <div class="row">
+                  <div class="col-md-5">
+                  <h2 class="footer-heading mb-4">สำนักวิทยบริการและเทคโนโลยีสารสนเทศ</h2>
+                  <p>มหาวิทยาลัยราชภัฏรำไพพรรณี</p>
+                  <p>41 ม 5 ต ท่าช้าง อ เมือง จ จันทบุรี 22000</p>
+                  <p>โทรศัพ์ 039 319111 ต่อ 10900</p>
+                  <p>แฟกซ์ 039 471065</p>
+                  </div>
+
+                  <div class="col-md-3 ">
+                      <h2 class="footer-heading mb-4">ติดต่อ</h2>
+                      <ul class="list-unstyled">
+                          <li><a href="#">หมายเลขภายใน</a></li>
+                          <li><a href="#">สายตรงผู้อำนวยการ</a></li>
+                          <li><a href="#">รำไพพรรณี</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="col-md-4">
+                      <a href="#"><img src="img/logo_green.png" alt="Image" class="img-fluid mb-3"></a>
+                      <div align="center">
+                      <img border="0" src="http://cc.amazingcounters.com/counter.php?i=3218784&amp;c=9656665" alt="AmazingCounters.com">                        <br>
+                        27-08-2020
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+              <a href="#"><img src="img/footHead.png" alt="Image" class="img-fluid mb-3"></a>
+          </div>
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+              <div class="border-top pt-5">
+                  <p>                                                                                                                       
+                  Copyright © 2017 - ARIT | RBRU Developed                  
+                  </p>
+              </div>
+          </div>
+      </div>
+    </div>
+      
+
+      `;
+    }
+  }
+
+  customElements.define('main-footer', footer);
+
+
