@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom right, #ffffff , #c2c2c2);
+    background: linear-gradient(to bottom right, #ffffff , #fff0f0);
      -moz-background-size: cover;
      background-size: cover;
 }
@@ -38,12 +38,12 @@ header h1{
 }
 
 nav{
-    background: linear-gradient(to bottom right, #ffffff , #25252518);
+    background: linear-gradient(to bottom right, #ffffff , #ffe1e1);
     font-family: 'Athiti', sans-serif;
 }
 
 
-/* new */
+/* ส่วนของข่าว */
 .new-item{
     justify-items: center;
     text-align: center;
@@ -68,7 +68,7 @@ nav{
 }
 
 
-/*  gallery */
+/*  ส่วนของรูปภาพ */
 .gallery{
     margin-top: 10%;
 }
@@ -98,32 +98,31 @@ nav{
     transform: translate(-100px, -5px);
 }
 
-    
-
-
 .gallery-item-text h1{
     text-align: center;
     font-family: 'Athiti', sans-serif;
     color: #000000;
     padding: 10px 10px 10px 10px;
 }
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+.controls-top ,.controls-top a{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+    font: large;
+}
 
 
 
 
-.gallery .row {
-    margin: 15px;
-  }
 
-  .gallery .row img{
-    transition: .4s ease-in-out;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
-  }
-
-  .gallery .row img:hover {
-    scale: 1.1;
-    z-index: 1;
-  }
 
 
   /* tab */
@@ -155,8 +154,6 @@ nav{
     text-decoration: none;
 }
 
-
-
 .tab-card:hover .tab-card-titel{
     transform: translate(0px, 0px);
 }
@@ -167,7 +164,7 @@ nav{
 
     
 
-/* fff */
+/* ตารางสารสสนเทศ */
 
 input {
     display: none;
@@ -245,7 +242,6 @@ input:checked ~ .questions {
     transition: 1s;
 }
 
-/*----------tool-tip------------*/
 
 .contenner-wrapper{
     display: flex;
@@ -269,7 +265,7 @@ input:checked ~ .questions {
 
 
 
-/* ปทต */
+/* ปฏิทิน */
 .googleCalendar{
     display: flex;
     margin: 0 auto;
@@ -304,3 +300,5 @@ input:checked ~ .questions {
     font-family: 'Athiti', sans-serif;
     text-decoration: none;
 }
+
+

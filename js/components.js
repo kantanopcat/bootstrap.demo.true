@@ -3,7 +3,7 @@ class manu extends HTMLElement {
       this.innerHTML = `
     <div class="manu">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">ARIT |</a>
+                <a class="navbar-brand" href="#"> <font size="5"> ARIT| </font>  </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
