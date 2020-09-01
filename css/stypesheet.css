@@ -66,7 +66,15 @@ nav{
     transform: translate(0px, -5px);
     color :#ff0000;
 }
+@media screen and (max-width : 780px){
+    .new-item a {
+        text-decoration: none;
+        opacity: 1;
+        transform: translate(0px, -5px);
+        color :#ff0000;
+    }
 
+}
 
 /*  ส่วนของรูปภาพ */
 .gallery{
@@ -92,11 +100,15 @@ nav{
     color :#ff0000;
 }
 
+
+
 .gallery-item-text a{
     text-decoration: none;
     opacity: 0;
     transform: translate(-100px, -5px);
 }
+
+
 
 .gallery-item-text h1{
     text-align: center;
@@ -112,13 +124,12 @@ nav{
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
 
-.controls-top ,.controls-top a{
+    .controls-top ,.controls-top a{
     justify-items: center;
     text-align: center;
     text-decoration: none;
     font: large;
 }
-
 
 
 
@@ -302,3 +313,35 @@ input:checked ~ .questions {
 }
 
 
+
+/* หน้าเกี่ยวกับ-------------- */
+
+/* แถบเมูนย่อยด้านข้าง */
+
+.submanubar nav{
+    border-radius: 20px;
+}
+.abount p,dd{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 0.9em ;
+}
+.abount p{
+    text-align: start;
+}
+
+.abount dd{
+    text-align: start;
+    margin-left: 50px;
+}
+
+
+
+
+
+@media screen and (max-width : 780px){
+    .gallery-item-text a{
+        text-decoration: none;
+        opacity: 1;
+        transform: translate(0px, -5px);
+        color :#ff0000;
+    }
