@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom right, #ffffff , #fff0f0);
+    background: linear-gradient(to bottom right, #ffffff , #d1c78b);
      -moz-background-size: cover;
      background-size: cover;
 }
@@ -38,7 +38,7 @@ header h1{
 }
 
 nav{
-    background: linear-gradient(to bottom right, #ffffff , #ffe1e1);
+    background: linear-gradient(to bottom right, #f5ffbd , #9b6635);
     font-family: 'Athiti', sans-serif;
 }
 
@@ -318,8 +318,8 @@ input:checked ~ .questions {
 
 /* แถบเมูนย่อยด้านข้าง */
 
-.submanubar nav{
-    border-radius: 20px;
+.submanubar{
+    background-color: rgb(177, 147, 92);
 }
 .abount p,dd{
     font-family: 'Sarabun', sans-serif;
@@ -334,10 +334,53 @@ input:checked ~ .questions {
     margin-left: 50px;
 }
 
+.btn-group-vertical a{
+    color: wheat;
+    transition: .4s ease-in-out;
+}
+.btn-group-vertical a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* --------------ค่านิยม------------- */
+.arit{
+     text-align: start;
+}
+.strategy{
+    text-align: start;
+}
+
+/* -----------โครงสร้างองค์กร-------- */
+.str{
+    text-align: start;
+}
+.str h5{
+    font-size: 1em;
+    font-weight: bold;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
 @media screen and (max-width : 780px){
     .gallery-item-text a{
         text-decoration: none;
@@ -345,3 +388,10 @@ input:checked ~ .questions {
         transform: translate(0px, -5px);
         color :#ff0000;
     }
+    
+    header h1{
+        scale: 0.8;
+    }
+}
+
+
