@@ -3,7 +3,7 @@ class manu extends HTMLElement {
       this.innerHTML = `
     <div class="manu">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html"> <font size="5"> ARIT| </font>  </a>
+                <a class="navbar-brand" href="../index.php"> <font size="5"> ARIT| </font>  </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -14,7 +14,7 @@ class manu extends HTMLElement {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">สำนักฯ</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="abount.html">ข้อมูลสำนักวิทยบริการ</a>
+                                        <a class="dropdown-item" href="abount.php">ข้อมูลสำนักวิทยบริการ</a>
                                         <a class="dropdown-item" href="#">เบอร์ติดต่อภายใน</a>
                                         <a class="dropdown-item" href="#">ประกันคุณภาพQA</a>
                                         <a class="dropdown-item" href="#">รายงานประจำปี</a>
@@ -146,17 +146,28 @@ class manu extends HTMLElement {
 
 
 
+
+
+
+
+
+// ส่วนของเพจย่อยทั้งหลายที่อยู่ใน Foder
+
+
+
+//   ส่วนของ abount
+
+
   
-  class amenu extends HTMLElement {
+class amenu extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <div class="btn-group-vertical">
-      <button type="button" class="btn btn-primary"><a href="abount.html">ประวัติความเป็นมา</a></button>
-      <button type="button" class="btn btn-primary"><a href="philosophy.html">ปรัชญา วิสัยทัศน์ พันธกิจ</a></button>
-      <button type="button" class="btn btn-primary"><a href="strategic.html">ค่านิยม ยุทธศาสตร์</a></button>
-      <button type="button" class="btn btn-primary"><a href="structure.html">โครงสร้างองค์กร</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">บุคลากร</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">e-Portfolio</a></button>
+      <button type="button" class="btn btn-primary"><a href="abount.php">ประวัติความเป็นมา</a></button>
+      <button type="button" class="btn btn-primary"><a href="philosophy.php">ปรัชญา วิสัยทัศน์ พันธกิจ</a></button>
+      <button type="button" class="btn btn-primary"><a href="strategic.php">ค่านิยม ยุทธศาสตร์</a></button>
+      <button type="button" class="btn btn-primary"><a href="structure.php">โครงสร้างองค์กร</a></button>
+      <button type="button" class="btn btn-primary"><a href="personnel.php">บุคลากร</a></button>
       <button type="button" class="btn btn-primary"><a href="#">คณะกรรมการประจำสำนัก</a></button>
       <button type="button" class="btn btn-primary"><a href="#">พื้นที่การให้บริการ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/janya.pdf">คู่มือ จรรยาบรรณวิชาชีพ</a></button>
@@ -171,5 +182,4 @@ class manu extends HTMLElement {
       `;
     }
   }
-
   customElements.define('main-amenu', amenu);

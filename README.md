@@ -1,7 +1,7 @@
-# bootstrap.demo.true
- 
-8 21 2020 start
-
-
-
-9 11 2020 add page & เตรียมศึกษา php และ data base 
+หน้าต่างๆ
+index หน้าเเรก
+abount หน้าประวัติคามเป็นมา
+philosophy หน้าปรัชญา วิสัยทัศน์ พันธกิจ
+strategic หน้าค่านิยม ยุทธศาสตร์
+structure หน้าโครงสร้าง
+personnel หน้าบุคลากร +  e-port
