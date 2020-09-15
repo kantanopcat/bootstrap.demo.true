@@ -3,7 +3,7 @@ class manu extends HTMLElement {
       this.innerHTML = `
     <div class="manu">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="../index.php"> <font size="5"> ARIT| </font>  </a>
+                <a class="navbar-brand" href="index.php"> <font size="5"> ARIT| </font>  </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -151,7 +151,7 @@ class manu extends HTMLElement {
 
 
 
-// ส่วนของเพจย่อยทั้งหลายที่อยู่ใน Foder
+// ส่วนของเพจย่อยทั้งหลายที่เป็นหน้าย่อย
 
 
 
@@ -168,7 +168,7 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="strategic.php">ค่านิยม ยุทธศาสตร์</a></button>
       <button type="button" class="btn btn-primary"><a href="structure.php">โครงสร้างองค์กร</a></button>
       <button type="button" class="btn btn-primary"><a href="personnel.php">บุคลากร</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">คณะกรรมการประจำสำนัก</a></button>
+      <button type="button" class="btn btn-primary"><a href="board.php">คณะกรรมการประจำสำนัก</a></button>
       <button type="button" class="btn btn-primary"><a href="#">พื้นที่การให้บริการ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/janya.pdf">คู่มือ จรรยาบรรณวิชาชีพ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/ethics.pdf">ประกาศ กพอ. มาตรฐานของจรรยาบรรณ</a></button>
