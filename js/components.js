@@ -169,11 +169,11 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="structure.php">โครงสร้างองค์กร</a></button>
       <button type="button" class="btn btn-primary"><a href="personnel.php">บุคลากร</a></button>
       <button type="button" class="btn btn-primary"><a href="board.php">คณะกรรมการประจำสำนัก</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">พื้นที่การให้บริการ</a></button>
+      <button type="button" class="btn btn-primary"><a href="area.php">พื้นที่การให้บริการ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/janya.pdf">คู่มือ จรรยาบรรณวิชาชีพ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/ethics.pdf">ประกาศ กพอ. มาตรฐานของจรรยาบรรณ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/power_save.pdf">ประกาศ มาตราการประหยัดพลังงานและทรัพยากร สำนักวิทยบริการและเทคโนโลยีสารสนเทศ</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">การจัดการความรู้ KM</a></button>
+      <button type="button" class="btn btn-primary"><a href="km.php">การจัดการความรู้ KM</a></button>
       <button type="button" class="btn btn-primary"><a href="#">ประกันคุณภาพ QA</a></button>
       <button type="button" class="btn btn-primary"><a href="#">ข่าวประชาสัมพันธ์</a></button>
       <button type="button" class="btn btn-primary"><a href="#">ภาพกิจกรรม </a></button>

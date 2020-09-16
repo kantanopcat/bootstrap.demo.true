@@ -7,7 +7,7 @@
 body{
     width: 100%;
     height: auto;
-    background: linear-gradient(to bottom right, #ffffff , #d1c78b);
+    background: linear-gradient(to bottom right, #ffffff , #9dc29f);
      -moz-background-size: cover;
      background-size: cover;
 }
@@ -38,7 +38,7 @@ header h1{
 }
 
 nav{
-    background: linear-gradient(to bottom right, #f5ffbd , #9b6635);
+    background: linear-gradient(to bottom right, #e6ff5b , #44b105);
     font-family: 'Athiti', sans-serif;
 }
 
@@ -362,10 +362,11 @@ input:checked ~ .questions {
 }
 
 
-
-
-
-
+/* พื้นที่ */
+.con-body{
+    justify-items: start;
+    text-align: start;
+}
 
 
 
