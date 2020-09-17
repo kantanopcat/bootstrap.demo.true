@@ -174,7 +174,7 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/ethics.pdf">ประกาศ กพอ. มาตรฐานของจรรยาบรรณ</a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/power_save.pdf">ประกาศ มาตราการประหยัดพลังงานและทรัพยากร สำนักวิทยบริการและเทคโนโลยีสารสนเทศ</a></button>
       <button type="button" class="btn btn-primary"><a href="km.php">การจัดการความรู้ KM</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">ประกันคุณภาพ QA</a></button>
+      <button type="button" class="btn btn-primary"><a href="qa_about.php">ประกันคุณภาพ QA</a></button>
       <button type="button" class="btn btn-primary"><a href="#">ข่าวประชาสัมพันธ์</a></button>
       <button type="button" class="btn btn-primary"><a href="#">ภาพกิจกรรม </a></button>
   </div>
@@ -183,3 +183,30 @@ class amenu extends HTMLElement {
     }
   }
   customElements.define('main-amenu', amenu);
+
+
+  class bmenu extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+      <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="qa_about.php">คณะกรรมการประกันคุณภาพ</a></button>
+      <button type="button" class="btn btn-primary"><a href="qa_policy.php">นโยบาย คู่มือประกันคุณภาพ</a></button>
+      <button type="button" class="btn btn-primary"><a href="qa_plan.php">แผนยุทธศาสตร์สำนัก</a></button>
+      <button type="button" class="btn btn-primary"><a href="structure.php">รายงานผลประจำปี</a></button>
+  </div>
+      
+      `;
+    }
+  }
+  customElements.define('main-bmenu', bmenu);
+
+
+  
+  $(document).ready(function() {
+    $('[id^=detail-]').hide();
+    $('.toggle').click(function() {
+        $input = $( this );
+        $target = $('#'+$input.attr('data-toggle'));
+        $target.slideToggle();
+    });
+});

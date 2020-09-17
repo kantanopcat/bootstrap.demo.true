@@ -118,7 +118,96 @@
                 <!--จบกระบวนการจัดการความรู้ (Knowledge Management)--------------->
 
 
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h5>ผลการดำเนินงาน (KM)</h5>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-3"></div>
+                    <div class="col-sm-6">
+                        <div class="contenner-wrapper">
+                            <div class="wrapper">
 
+                                <div class="wrap-1">
+                                <input type="radio" id="tab-1" name="tabs">
+                                <label for="tab-1"><div>ปี 2557</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/manual_resourceit57.pdf">คู่มือการปฏิบัติการ "การให้บริการทรัพยากรสารสนเทศ</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/sum_km57.pdf">สรุปรายงานผลการดำเนินงาน โครงการการจัดการความรู้ "ให้บริการทรัพยากรสารสนเทศ"</a> <br>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-2">
+                                <input type="radio" id="tab-2" name="tabs">
+                                <label for="tab-2"><div>ปี 2556</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/km56_GoodService.pdf">คู่มือจัดการความรู้ ปี 2556 เรื่อง การบริการที่ดี เพื่อเพิ่มประสิทธิภาพในองค์กร</a> <br>
+                                            <a href="#">วิดีโอการจัดการความรู้ เรื่อง การบริการที่ดี เพื่อเพิ่มประสิทธิภาพในองค์กร</a> <br>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-3">
+                                <input type="radio" id="tab-3" name="tabs">
+                                <label for="tab-3"><div>ปี 2555</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/km55_repairbook.pdf">คู่มือจัดการความรู้ ปี 2555 เรื่อง การซ่อมหนังสือ</a> <br>
+                                            <a href="#">วีดีโอการจัดการความรู้ เรื่อง การซ่อมหนังสือ</a> <br>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-4">
+                                <input type="radio" id="tab-4" name="tabs">
+                                <label for="tab-4"><div>ปี 2554</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/km_authen.pdfs">ระบบยืนยันตัวตน (Authentication System) จัดทำโดย ศูนย์เทคโนโลยีสารสนเทศ</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/devedu.pdf">รายงานผลโครงการพัฒนาระบบการประกันคุณภาพการศึกษา</a> <br>
+                                                <ul>
+                                                    <li>
+                                                        <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/comment_standard.pdf">ข้อเสนอแนะของแต่ละองค์ประกอบตามมาตรฐาน</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/service_info_market.pdf">การบริการสารสนเทศเชิงรุก ด้วยกลยุทธ์การตลาด</a>
+                                                    </li>
+                                                </ul>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-5">
+                                <input type="radio" id="tab-5" name="tabs">
+                                <label for="tab-5"><div>ปี 2553</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/report_km53.pdf">รายงานผลการจัดการความรู้ ปีงบประมาณ พ.ศ. 2553</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/km_ProduceMedia53.pdf">การผลิตสื่ออิเล็กทรอนิกส์โดยใช้โปรแกรม Open Source</a> <br>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-6">
+                                <input type="radio" id="tab-6" name="tabs">
+                                <label for="tab-6"><div>ปี 2551</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/internet_room.pdf">คู่มือการให้บริการห้องปฏิบัติการคอมพิวเตอร์</a> <br>
+                                    </div>
+                                </div>
+
+                                <div class="wrap-7">
+                                <input type="radio" id="tab-7" name="tabs">
+                                <label for="tab-7"><div>ปี 2550</div><div class="cross"></div></label>
+                                    <div class="content">
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/public_website.pdf">งานการเผยแพร่ข้อมูลลงในเว็บไซต์มหาวิทยาลัย</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/website.pdf">การจัดทำเว็บไซต์ของหน่วยงานในมหาวิทยาลัย</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/email.pdf">การขอแบบฟอร์มขอใช้ E-Mail Account (สำหรับ หน่วยงาน บุคลากรและนักศึกษา)</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/content.pdf">งานสารบรรณ</a> <br>
+                                            <a href="http://www.arit.rbru.ac.th/Document/Doc_KM/budget.pdf">งานตัดยอดงบของศูนย์เทคโนโลยีสารสนเทศ</a> <br>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
             </div>
             
 
