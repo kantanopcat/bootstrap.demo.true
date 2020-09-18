@@ -192,7 +192,7 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="qa_about.php">คณะกรรมการประกันคุณภาพ</a></button>
       <button type="button" class="btn btn-primary"><a href="qa_policy.php">นโยบาย คู่มือประกันคุณภาพ</a></button>
       <button type="button" class="btn btn-primary"><a href="qa_plan.php">แผนยุทธศาสตร์สำนัก</a></button>
-      <button type="button" class="btn btn-primary"><a href="structure.php">รายงานผลประจำปี</a></button>
+      <button type="button" class="btn btn-primary"><a href="qa_report.php">รายงานผลประจำปี</a></button>
   </div>
       
       `;

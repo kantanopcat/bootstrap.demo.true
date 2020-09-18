@@ -287,7 +287,7 @@
                                 <li class="list-group-item">
                                     <div class="row toggle" id="dropdown-detail-10" data-toggle="detail-10">
                                         <div class="col-xs-10">
-                                            แผนพัฒนาบุคลากร
+                                             แผนพัฒนาบุคลากร
                                         </div>
                                         <div class="col-xs-2"><i class="fa fa-chevron-down pull-right"></i></div>
                                     </div>
