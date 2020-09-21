@@ -15,11 +15,11 @@ class manu extends HTMLElement {
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">สำนักฯ</a>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="abount.php">ข้อมูลสำนักวิทยบริการ</a>
-                                        <a class="dropdown-item" href="#">เบอร์ติดต่อภายใน</a>
-                                        <a class="dropdown-item" href="#">ประกันคุณภาพQA</a>
-                                        <a class="dropdown-item" href="#">รายงานประจำปี</a>
+                                        <a class="dropdown-item" href="contact.php">เบอร์ติดต่อภายใน</a>
+                                        <a class="dropdown-item" href="qa_about.php">ประกันคุณภาพQA</a>
+                                        <a class="dropdown-item" href="qa_report.php">รายงานประจำปี</a>
                                         <a class="dropdown-item" href="#">รายงานสถิติการให้บริการ</a>
-                                        <a class="dropdown-item" href="#">การจัดการความรู้KM</a>
+                                        <a class="dropdown-item" href="km.php">การจัดการความรู้KM</a>
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="#">สายตรงผู้บริหาร</a>
                                     </div>

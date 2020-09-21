@@ -371,8 +371,19 @@ input:checked ~ .questions {
 
 /* QA */
 
+.img_re img{
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
 
 
+/*  */
+
+.cont h3,span{
+    justify-items: start;
+    text-align: start;
+}
 
 
 
