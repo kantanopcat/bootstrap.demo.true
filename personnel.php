@@ -65,7 +65,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/phuwadol.jpg" 
+                                    <img src="img/human/phuwadol.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/nitas.jpg" 
+                                    <img src="img/human/nitas.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/janjob.jpg" 
+                                    <img src="img/human/janjob.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/teerapong.jpg" 
+                                    <img src="img/human/teerapong.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/arporn.jpg" 
+                                    <img src="img/human/arporn.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -143,7 +143,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/preeyaporn.jpg" 
+                                    <img src="img/human/preeyaporn.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -159,7 +159,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/janya.jpg" 
+                                    <img src="img/human/janya.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -175,7 +175,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/pornpawa.jpg" 
+                                    <img src="img/human/pornpawa.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -195,7 +195,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/suvaree.jpg" 
+                                    <img src="img/human/suvaree.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -215,7 +215,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/pasakon.jpg" 
+                                    <img src="img/human/pasakon.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -245,7 +245,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/jiamjit.jpg" 
+                                    <img src="img/human/jiamjit.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -267,7 +267,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/buppa.jpg" 
+                                    <img src="img/human/buppa.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -283,7 +283,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/darawan.jpg" 
+                                    <img src="img/human/darawan.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -299,7 +299,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/jatuporn.jpg" 
+                                    <img src="img/human/jatuporn.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -319,7 +319,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/wilailuk.jpg" 
+                                    <img src="img/human/wilailuk.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -335,7 +335,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/pariyaporn.jpg" 
+                                    <img src="img/human/pariyaporn.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -351,7 +351,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/intira.jpg" 
+                                    <img src="img/human/intira.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -371,7 +371,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/sukanya.jpg" 
+                                    <img src="img/human/sukanya.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -391,7 +391,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/somporn.jpg" 
+                                    <img src="img/human/somporn.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -422,7 +422,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/parinya.jpg" 
+                                    <img src="img/human/parinya.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -444,7 +444,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/ladda.jpg" 
+                                    <img src="img/human/ladda.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -460,7 +460,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/angkana.jpg" 
+                                    <img src="img/human/angkana.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -476,7 +476,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/aeknarin.jpg" 
+                                    <img src="img/human/aeknarin.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -496,7 +496,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/aekkaluk.jpg" 
+                                    <img src="img/human/aekkaluk.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -512,7 +512,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/arisa.jpg" 
+                                    <img src="img/human/arisa.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -528,7 +528,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/rattasit.jpg" 
+                                    <img src="img/human/rattasit.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -548,7 +548,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/kunagron.jpg" 
+                                    <img src="img/human/kunagron.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -564,7 +564,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/teerawut.jpg" 
+                                    <img src="img/human/teerawut.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -580,7 +580,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/somsak.jpg" 
+                                    <img src="img/human/somsak.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -600,7 +600,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/pornpan.jpg" 
+                                    <img src="img/human/pornpan.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -616,7 +616,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/apinan.jpg" 
+                                    <img src="img/human/apinan.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -632,7 +632,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/krit.jpg" 
+                                    <img src="img/human/krit.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -663,7 +663,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/pongnatee.jpg" 
+                                    <img src="img/human/pongnatee.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -685,13 +685,13 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/noppadate.jpg" 
+                                    <img src="img/human/noppadate.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
                                     <hr class="hr-light">
                                     <!-- Link -->
-                                    <a href="https://sites.google.com/rbru.ac.th/noppadech-y/">
+                                    <a href="img/human/noppadech-y/">
                                         <h5>e-Portfolio</h5>
                                     </a>
 
@@ -701,7 +701,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/surat.jpg" 
+                                    <img src="img/human/surat.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 
@@ -717,7 +717,7 @@
                             <div class="col-lg-4">
                             <div class="card">
                                 <div class="view overlay">
-                                    <img src="http://www.arit.rbru.ac.th/img/people/ronnapob.jpg" 
+                                    <img src="img/human/ronnapob.jpg" 
                                     alt="" max-width="100%" max-height="100%">
                                     </div>
 

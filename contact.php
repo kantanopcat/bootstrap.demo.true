@@ -44,19 +44,206 @@
                             เบอร์โทรศัพท์ 039-319111 ต่อหมายเลขภายใน ดังตารางข้างล่าง</h4>
                     </div>
                 </div>
+
+                <hr>
+
+                <h6>สำนักงานผู้อำนวยงาน</h6>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">ผู้อำนวยการสำนักวิทยบริการฯ</th>
+                            <td> ชั้น 4 ห้อง 35401 </td>
+                            <td> 10999</td>
+                        </tr>
+                    </tbody>
+           
+                    <tbody>
+                        <tr>
+                            <th scope="row">รองผู้อำนวยการสำนักวิทยบริการฯ</th>
+                            <td> ชั้น 3 ห้อง 35301 </td>
+                            <td> 10954</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานธุรการ , งานการเงิน</th>
+                            <td>ชั้น 4 ห้อง 35401 </td>
+                            <td>  10900 , 10980 </td>
+                        </tr>
+                    </tbody>
+
+                </table> 
                
-                <div class="cont">
-                <h3>สำนักงานผู้อำนวยงาน</h3>
-                <div class="row">
+                
+                <hr>
+
+                <h6>กลุ่มงานบริหารงานทั่วไป</h6>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">หัวหน้าสำนักงาน</th>
+                            <td> ชั้น 4 ห้อง 35403 </td>
+                            <td> 10990</td>
+                        </tr>
+                    </tbody>
+           
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานการเงิน</th>
+                            <td> ชั้น 4 ห้อง 35401 </td>
+                            <td> 10900</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานพัสดุ</th>
+                            <td>ชั้น 4 ห้อง 35403 </td>
+                            <td>10901</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานฝึกอบรม</th>
+                            <td>ชั้น 4 ห้อง 35403 </td>
+                            <td>10902</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานประชาสัมพันธ์</th>
+                            <td> ชั้น 4 ห้อง 35403 </td>
+                            <td>10901</td>
+                        </tr>
+                    </tbody>
+
+                </table> 
+                
+                <hr>
+
+                <h6>กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</h6>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">หัวหน้ากลุ่มงานศูนย์</th>
+                            <td> ชั้น 3 ห้อง 35302</td>
+                            <td>  10929</td>
+                        </tr>
+                    </tbody>
+           
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานสารสนเทศ</th>
+                            <td>ชั้น 3 ห้อง 35304</td>
+                            <td> 10910 , 10911</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานบริการและซ่อมบำรุง</th>
+                            <td>ชั้น 3 ห้อง 35303</td>
+                            <td> 10925</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานระบบเครือข่าย</th>
+                            <td> ชั้น 3 ห้อง 35305</td>
+                            <td>  10920</td>
+                        </tr>
+                    </tbody>
                     
-                    <span class="col-md-4"><b>- ผู้อำนวยการสำนักวิทยบริการฯ</b></span>
-                    <span class="col-md-4">ชั้น 4 ห้อง 35401 </span>
-                    <span class="col-md-4"> 10999</span>
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานพัฒนานวัตกรรม</th>
+                            <td>ชั้น 3 ห้อง 35304</td>
+                            <td>   10911</td>
+                        </tr>
+                    </tbody>
 
-                </div>
-         
+                </table>
 
-                </div>
+                
+                <hr>
+
+                <h6>กลุ่มงานศูนย์เทคโนโลยีการศึกษา</h6>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">หัวหน้ากลุ่มงานศูนย์</th>
+                            <td> ชั้น 4 ห้อง 35404</td>
+                            <td> 10930</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานผลิตสื่อ</th>
+                            <td> ชั้น 4 ห้อง 35404</td>
+                            <td> 10930</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">งานผลิตสื่อ</th>
+                            <td> ชั้น 4 ห้อง 35404</td>
+                            <td> 10930</td>
+                        </tr>
+                    </tbody>
+           
+                </table> 
+               
+               <hr>
+
+                <h6>หอสมุดกลาง</h6>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <th scope="row">หัวหน้าหอสมุดกลาง</th>
+                            <td>  ชั้น 1 โซน สำนักงาน</td>
+                            <td>  10959</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">Admin หอสมุดกลาง </th>
+                            <td>ชั้น 1 โชน สำนักงาน</td>
+                            <td> 10930</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">วารสารและสิ่งพิมพ์ต่อเนื่อง</th>
+                            <td>ชั้น 1 โชน วารสาร</td>
+                            <td>  10950</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">บริการยืม - คืน</th>
+                            <td>ชั้น 1 โซน หนังสือและค้นคว้า</td>
+                            <td>   10951</td>
+                        </tr>
+                    </tbody>
+           
+                    <tbody>
+                        <tr>
+                            <th scope="row">ซ่อมหนังสือ</th>
+                            <td>ชั้น 1 โซน วารสาร</td>
+                            <td>   10952</td>
+                        </tr>
+                    </tbody>
+                </table> 
+ 
  
 
             </div>

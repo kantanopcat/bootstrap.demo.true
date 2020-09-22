@@ -18,22 +18,22 @@ class manu extends HTMLElement {
                                         <a class="dropdown-item" href="contact.php">เบอร์ติดต่อภายใน</a>
                                         <a class="dropdown-item" href="qa_about.php">ประกันคุณภาพQA</a>
                                         <a class="dropdown-item" href="qa_report.php">รายงานประจำปี</a>
-                                        <a class="dropdown-item" href="#">รายงานสถิติการให้บริการ</a>
+                                        <a class="dropdown-item" href="statistic_report.php">รายงานสถิติการให้บริการ</a>
                                         <a class="dropdown-item" href="km.php">การจัดการความรู้KM</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">สายตรงผู้บริหาร</a>
+                                        <a class="dropdown-item" href="http://www.arit.rbru.ac.th/hotline/">สายตรงผู้บริหาร</a>
                                     </div>
                                 </li>
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">หน่วยงาน</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">กลุ่มงานบริหารงานทั่วไป</a>
+                                        <a class="dropdown-item" href="Department_official.php">กลุ่มงานบริหารงานทั่วไป</a>
                                         <a class="dropdown-item" href="#">กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</a>
                                         <a class="dropdown-item" href="#">กลุ่มงานเทคโนโลยีการศึกษา</a>
                                         <a class="dropdown-item" href="#">หอสมุดกลาง</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">มหาวิทยาลัยราชภัฏรำไพพรรณี</a>
+                                        <a class="dropdown-item" href="https://www.rbru.ac.th">มหาวิทยาลัยราชภัฏรำไพพรรณี</a>
                                     </div>
                                 </li>
 
@@ -193,12 +193,33 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="qa_policy.php">นโยบาย คู่มือประกันคุณภาพ</a></button>
       <button type="button" class="btn btn-primary"><a href="qa_plan.php">แผนยุทธศาสตร์สำนัก</a></button>
       <button type="button" class="btn btn-primary"><a href="qa_report.php">รายงานผลประจำปี</a></button>
-  </div>
+      </div>
       
       `;
     }
   }
   customElements.define('main-bmenu', bmenu);
+
+
+
+
+  class ofmenu extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+      <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="Department_official.php">กลุ่มงานบริหารงานทั่วไป </a></button>
+      <button type="button" class="btn btn-primary"><a href="#">เกี่ยวกับ</a></button>
+      <button type="button" class="btn btn-primary"><a href="#">โครงสร้าง </a></button>
+      <button type="button" class="btn btn-primary"><a href="Department_official.php">บุคลากร </a></button>
+      <button type="button" class="btn btn-primary"><a href="OF_contact.php">เบอร์ภายใน </a></button>
+     </div>
+      
+      `;
+    }
+  }
+  customElements.define('main-ofmenu', ofmenu);
+
+
 
 
   
@@ -210,3 +231,4 @@ class amenu extends HTMLElement {
         $target.slideToggle();
     });
 });
+
