@@ -29,7 +29,7 @@ class manu extends HTMLElement {
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">หน่วยงาน</a>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="Department_official.php">กลุ่มงานบริหารงานทั่วไป</a>
-                                        <a class="dropdown-item" href="#">กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</a>
+                                        <a class="dropdown-item" href="Department_IT.php">กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</a>
                                         <a class="dropdown-item" href="#">กลุ่มงานเทคโนโลยีการศึกษา</a>
                                         <a class="dropdown-item" href="#">หอสมุดกลาง</a>
                                         <div class="dropdown-divider"></div>
@@ -221,6 +221,21 @@ class amenu extends HTMLElement {
 
 
 
+
+
+  class itmenu extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+        
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary"><a href="Department_IT.php">ประวัติความเป็นมา</a></button>
+        
+    </div>
+      
+      `;
+    }
+  }
+  customElements.define('main-itmenu', itmenu);
 
   
   $(document).ready(function() {
