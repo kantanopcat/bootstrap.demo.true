@@ -202,7 +202,8 @@ class amenu extends HTMLElement {
 
 
 
-
+// ในส่วนของหน่วยงาน--------------------------
+// -------------------กลุ่มงานบริหารทั่วไป
   class ofmenu extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
@@ -221,7 +222,7 @@ class amenu extends HTMLElement {
 
 
 
-
+// -------------------กลุ่มงานศูนย์เทคโนโลยีสารสนเทค
 
   class itmenu extends HTMLElement {
     connectedCallback() {
@@ -229,7 +230,11 @@ class amenu extends HTMLElement {
         
     <div class="btn-group-vertical">
         <button type="button" class="btn btn-primary"><a href="Department_IT.php">ประวัติความเป็นมา</a></button>
-        
+        <button type="button" class="btn btn-primary"><a href="IT_vision.php">ปรัชญา วิสัยทัศน์ พันธกิจ</a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_strategy.php">ยุทธศาสตร์</a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_rule.php">แผนแม่บท / นโยบาย / แนวปฏิบัติ</a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_structure.php">โครงสร้างองค์กร</a></button>
+
     </div>
       
       `;
