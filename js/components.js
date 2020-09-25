@@ -234,9 +234,10 @@ class amenu extends HTMLElement {
         <button type="button" class="btn btn-primary"><a href="IT_strategy.php">ยุทธศาสตร์</a></button>
         <button type="button" class="btn btn-primary"><a href="IT_rule.php">แผนแม่บท / นโยบาย / แนวปฏิบัติ</a></button>
         <button type="button" class="btn btn-primary"><a href="IT_structure.php">โครงสร้างองค์กร</a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_human.php">บุคลากร</a></button>
 
     </div>
-      
+    
       `;
     }
   }
