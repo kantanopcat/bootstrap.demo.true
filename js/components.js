@@ -235,7 +235,10 @@ class amenu extends HTMLElement {
         <button type="button" class="btn btn-primary"><a href="IT_rule.php">แผนแม่บท / นโยบาย / แนวปฏิบัติ</a></button>
         <button type="button" class="btn btn-primary"><a href="IT_structure.php">โครงสร้างองค์กร</a></button>
         <button type="button" class="btn btn-primary"><a href="IT_human.php">บุคลากร</a></button>
-
+        <button type="button" class="btn btn-primary"><a href="IT_ComService.php">ห้องปฏิบัติการคอมพิวเตอร์   </a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_Service.php">งานบริการ  </a></button>
+        <button type="button" class="btn btn-primary"><a href="arit_from.php">เอกสารแบบฟอร์ม </a></button>
+        <button type="button" class="btn btn-primary"><a href="IT_contact.php">เบอร์ติดต่อภายใน </a></button>
     </div>
     
       `;
