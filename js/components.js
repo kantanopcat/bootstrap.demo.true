@@ -30,7 +30,7 @@ class manu extends HTMLElement {
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="Department_official.php">กลุ่มงานบริหารงานทั่วไป</a>
                                         <a class="dropdown-item" href="Department_IT.php">กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</a>
-                                        <a class="dropdown-item" href="#">กลุ่มงานเทคโนโลยีการศึกษา</a>
+                                        <a class="dropdown-item" href="ET_history.php">กลุ่มงานเทคโนโลยีการศึกษา</a>
                                         <a class="dropdown-item" href="#">หอสมุดกลาง</a>
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="https://www.rbru.ac.th">มหาวิทยาลัยราชภัฏรำไพพรรณี</a>
@@ -246,7 +246,36 @@ class amenu extends HTMLElement {
   }
   customElements.define('main-itmenu', itmenu);
 
+// -------------------กลุ่มงานศูนย์เทคโนโลยีการศึกษา
+class etmenu extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      
+  <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="ET_history.php">เกี่ยวกับศูนเทคโนโลยีการศึกษา</a></button>
+      <button type="button" class="btn btn-primary"><a href="ET_structure.php">โครงสร้างองค์กร</a></button>
+      <button type="button" class="btn btn-primary"><a href="ET_human.php">บุคลากร</a></button>
+      <button type="button" class="btn btn-primary"><a href="ET_contact.php">เบอร์ภายใน </a></button>
+      <button type="button" class="btn btn-primary"><a href="Document/policy_elearning.pdf">ประกาศ : นโยบายการพัฒนาศักยภาพระบบ E-Learning </a></button>
+      <button type="button" class="btn btn-primary"><a href="ET_U_logo.php">ดาวน์โหลดตรามหาวิทยาลัย </a></button>
+      <hr>
+      <button type="button" class="btn btn-primary"><a href="Document/form_equipment.pdf">ฟอร์ม - ขอยืมอุปกรณ์</a></button>
+      <button type="button" class="btn btn-primary"><a href="Document/form_mediarequirement.pdf">ฟอร์ม - ขอรับบริการผลิตสื่อ</a></button>
+      <button type="button" class="btn btn-primary"><a href="Document/form_room_mediarequirement.pdf">ฟอร์ม - ขอใช้บริการห้องผลิตสื่อ</a></button> 
+  </div>
   
+    `;
+  }
+}
+customElements.define('main-etmenu', etmenu);
+
+
+
+
+
+
+
+
   $(document).ready(function() {
     $('[id^=detail-]').hide();
     $('.toggle').click(function() {

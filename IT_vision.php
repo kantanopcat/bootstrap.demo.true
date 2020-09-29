@@ -77,8 +77,7 @@
 
 
 
-    <main-footera></main-footera>
-
+    <main-footer></main-footer>
 
 
 

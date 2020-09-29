@@ -38,16 +38,115 @@
       <div class="row">
 
             <div class="col-sm-9">
-
+                
                 <div class="row">
-                    
+                    <div class="col-sm-12">        
+<!--  -->
+                            <div id="main-body">
+                                <h4>บุคลากร-ศูนย์เทคโนโลยีสารสนเทศ</h4>
+                                <br>
+                                <div class="card">
+                                    <h4 class="card-header"><cente>หัวหน้าศูนย์เทคโนโลยีสารสนเทศ</cente></h4>
+                                    <div class="card-body">
+                                    <br>
+                                        <center>
+                                            <table style="border-collapse:collapse; border:none" border="0">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="3"><span class="dark"><center><img src="img/human/parinya.jpg" alt=""></center></span></td>
+                                            </tr>
+                                                    <tr>
+                                                <td width="25%"><center><img src="" alt=""></center></td>
+                                                <td width="25%"><center><img src="" alt=""></center></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        </center>
+                                    </div>  
+                                </div>  
+                                <br>
+                                <div class="card">
+                                    <h4 class="card-header"><cente>งานสารสนเทศ</cente></h4>
+                                    <div class="card-body">
+                                        <table style="border-collapse:collapse; border:none" border="0">
+                                            <tbody>
+                                            <tr>
+                                                <td colspan="3"><span class="dark"><center><img src="img/human/ladda.jpg" alt=""></center></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/teerawut.jpg" alt=""></center></td>
+                                                <td width="25%"><center><img src="img/human/angkana.jpg" alt=""></center></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/arisa.jpg" alt=""></center></td>
+                                                <td width="25%"><center><img src="img/human/aekkaluk.jpg" alt=""></center></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/apinan.jpg" alt=""></center></td>
+                                                <td width="25%"><center><img src="img/human/krit.jpg" alt=""></center></td>
+                                            </tr>  
 
+                                            </tbody>
+                                        </table>
+                                    </div>  
+                                </div>  
 
+                                <br>
+                                <div class="card">
+                                    <h4 class="card-header"><cente>งานระบบเครือข่าย</cente></h4>
+                                    <div class="card-body">
+                                        <table style="border-collapse:collapse; border:none" border="0">
+                                            <tbody>
+                                                    <tr>
+                                                <td colspan="3"><span class="dark"><center><img src="img/human/parinya.jpg" alt=""></center></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/aeknarin.jpg" alt=""></center></td>
+                                                <td width="25%"><center><img src="img/human/somsak.jpg" alt=""></center></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>  
+                                </div>  
+
+                                <br>
+                                <div class="card">
+                                    <h4 class="card-header"><cente>งานบริการและซ่อมบำรุง</cente></h4>
+                                    <div class="card-body">
+                                        <table style="border-collapse:collapse; border:none" border="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/pornpan.jpg" alt=""></center></td>
+                                                <td width="25%"><center><img src="img/human/kunagron.jpg" alt=""></center></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>  
+                                </div>  
+
+                                <br>
+                                <div class="card">
+                                    <h4 class="card-header"><cente>งานพัฒนานวัตกรรม</cente></h4>
+                                    <div class="card-body">
+                                        <table style="border-collapse:collapse; border:none" border="0">
+                                            <tbody>
+                                            <tr>
+                                                <td width="25%"><center><img src="img/human/rattasit.jpg" alt=""></center></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <br>
+
+                            </div>
+<!--  -->
+                    </div>
                 </div>
+        </div>
+                   
 
 
-            </div>
-        
 
             <div class="col-sm-3">
                 <hr>
@@ -62,8 +161,7 @@
 
 
 
-    <main-footera></main-footera>
-
+    <main-footer></main-footer>
 
 
 
