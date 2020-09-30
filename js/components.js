@@ -40,8 +40,8 @@ class manu extends HTMLElement {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ประชาสัมพันธ์</a>
                                     <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">ข่าวประชาสัมพันธ์</a>
-                                    <a class="dropdown-item" href="#">ภาพกิจกรรม</a>
+                                    <a class="dropdown-item" href="news.php">ข่าวประชาสัมพันธ์</a>
+                                    <a class="dropdown-item" href="gallery.php">ภาพกิจกรรม</a>
                                     <a class="dropdown-item" href="arit_IT_km.php">ความรู้ด้านเทคโนโลยีสารสนเทศ</a>
                                     </div>
                                 </li>
@@ -175,8 +175,8 @@ class amenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="http://www.arit.rbru.ac.th/Document/power_save.pdf">ประกาศ มาตราการประหยัดพลังงานและทรัพยากร สำนักวิทยบริการและเทคโนโลยีสารสนเทศ</a></button>
       <button type="button" class="btn btn-primary"><a href="km.php">การจัดการความรู้ KM</a></button>
       <button type="button" class="btn btn-primary"><a href="qa_about.php">ประกันคุณภาพ QA</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">ข่าวประชาสัมพันธ์</a></button>
-      <button type="button" class="btn btn-primary"><a href="#">ภาพกิจกรรม </a></button>
+      <button type="button" class="btn btn-primary"><a href="news.php">ข่าวประชาสัมพันธ์</a></button>
+      <button type="button" class="btn btn-primary"><a href="gallery.php">ภาพกิจกรรม </a></button>
   </div>
       
       `;
@@ -359,7 +359,7 @@ class cccmenu extends HTMLElement {
       <button type="button" class="btn btn-primary"><a href="http://www.learning.rbru.ac.th/"> RBRU eLearning </a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.eculture.rbru.ac.th/"> RBRU eCulture </a></button>
       <button type="button" class="btn btn-primary"><a href="http://www.epub.rbru.ac.th/"> RBRU ePub </a></button>
-      <button type="button" class="btn btn-primary"><a href="http://portal.igpublish.com/iglibrary/">  IG Library  </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://portal.igpublish.com/iglibrary/w">  IG Library  </a></button>
 
   </div>
   
