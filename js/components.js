@@ -31,7 +31,7 @@ class manu extends HTMLElement {
                                         <a class="dropdown-item" href="Department_official.php">กลุ่มงานบริหารงานทั่วไป</a>
                                         <a class="dropdown-item" href="Department_IT.php">กลุ่มงานศูนย์เทคโนโลยีสารสนเทศ</a>
                                         <a class="dropdown-item" href="ET_history.php">กลุ่มงานเทคโนโลยีการศึกษา</a>
-                                        <a class="dropdown-item" href="#">หอสมุดกลาง</a>
+                                        <a class="dropdown-item" href="Department_LI.php">หอสมุดกลาง</a>
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="https://www.rbru.ac.th">มหาวิทยาลัยราชภัฏรำไพพรรณี</a>
                                     </div>
@@ -42,37 +42,37 @@ class manu extends HTMLElement {
                                     <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">ข่าวประชาสัมพันธ์</a>
                                     <a class="dropdown-item" href="#">ภาพกิจกรรม</a>
-                                    <a class="dropdown-item" href="#">ความรู้ด้านเทคโนโลยีสารสนเทศ</a>
+                                    <a class="dropdown-item" href="arit_IT_km.php">ความรู้ด้านเทคโนโลยีสารสนเทศ</a>
                                     </div>
                                 </li>
 
               
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">ระบบสารสนเทศ</a>
+                                    <a class="nav-link" href="mis.php">ระบบสารสนเทศ</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ฝึกอบรม</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">หลักสูตร พัฒนาครู ' 2561</a>
-                                        <a class="dropdown-item" href="#">หลักสูตร บริการวิชาการ ' 2561 </a>
+                                        <a class="dropdown-item" href="event.php">หลักสูตร พัฒนาครู ' 2561</a>
+                                        <a class="dropdown-item" href="event.php">หลักสูตร บริการวิชาการ ' 2561 </a>
                                     </div>
                                 </li>
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ดาว์โหลด</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">เอกสารแบบฟอร์ม</a>
-                                        <a class="dropdown-item" href="#">สารสำนักวิทยบริการ</a>
+                                        <a class="dropdown-item" href="arit_from.php">เอกสารแบบฟอร์ม</a>
+                                        <a class="dropdown-item" href="arit_post.php">สารสำนักวิทยบริการ</a>
                                     </div>
                                 </li>
 
                 </ul>
                                     <!-- 3สำนัก -->
                                     <div class="badge">
-                                        <a href="#"><span class="badge badge-pill badge-primary">IT</span></a> 
-                                        <a href="#"><span class="badge badge-pill badge-primary">ET</span></a> 
-                                        <a href="#"><span class="badge badge-pill badge-primary">LB</span></a> 
+                                        <a href="Department_IT.php"><span class="badge badge-pill badge-primary">IT</span></a> 
+                                        <a href="ET_history.php"><span class="badge badge-pill badge-primary">ET</span></a> 
+                                        <a href="Department_LI.php"><span class="badge badge-pill badge-primary">LB</span></a> 
                                     </div>
             </div>
         </nav>
@@ -269,7 +269,104 @@ class etmenu extends HTMLElement {
 }
 customElements.define('main-etmenu', etmenu);
 
+// 
 
+class lbmenu extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      
+  <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="Department_LI.php">หน้าแรก </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_history.php">เกี่ยวกับ หอสมุดกลาง  </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_structure.php">โครงสร้างองค์กร </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_human.php">บุคลากร </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_area.php">พื้นที่การให้บริการ </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_rule.php"> ระเบียบและข้อปฏิบัติ </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_statistics.php"> สถิติการให้บริการ </a></button>
+      <button type="button" class="btn btn-primary"><a href="LI_contact.php"> เบอร์ภายใน </a></button>
+
+      <br>
+        <div class="card" style="width:100%">
+        <div class="card-header">
+          <h4> ตารางการให้บริการ</h4>
+        </div>
+      
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12"><b><u>ภาคเรียนปกติ</u> </b></span>
+            </div>    
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12"><b>จันทร์-ศุกร์ : </b> 08.00-16.30 น. </span>
+            </div>                
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12"><b>เสาร์-อาทิตย์ : </b> 08.00-16.30 น. </span>
+            </div>                
+            <br>
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12"><b><u>ปิดภาคเรียน</u> </b></span>
+            </div>    
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12"><b>จันทร์-อาทิตย์ : </b> 08.00-16.30 น. </span>
+            </div>                
+            <br>
+            <div class="mrgauto padd5 row  ">
+                <span class="col-md-12" style="color:#f10b6f; font-size:12pt"><b>**<u>หมายเหตุ</u>** </b></span>
+            </div>    
+            <div class="mrgauto padd5 row ">
+                <span class="col-md-12" style="color:#ff4b96; font-size:12pt">เว้นวันหยุดราชการประจำปี วันนักขัตฤกษ์ ตามประกาศของมหาวิทยาลัยและตามประกาศของหอสมุดกลาง</span>
+            </div>                
+      
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    `;
+  }
+}
+customElements.define('main-lbmenu', lbmenu);
+
+
+// -----------------------------------------------------------
+class aritmenu extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      
+  <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="ET_history.php"> สารสำนัก </a></button>
+      <button type="button" class="btn btn-primary"><a href="arit_from.php">  เอกสารแบบฟอร์ม  </a></button>
+      <button type="button" class="btn btn-primary"><a href="arit_internal_from.php">   เอกสารแบบฟอร์มภายในสำนักวิทยบริการฯ  </a></button>
+      <button type="button" class="btn btn-primary"><a href="arit_IT_km.php">  ความรู้ด้าน IT   </a></button>
+
+  </div>
+  
+    `;
+  }
+}
+customElements.define('main-aritmenu', aritmenu);
+
+// -------------------------------------------------------------
+
+
+class cccmenu extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      
+  <div class="btn-group-vertical">
+      <button type="button" class="btn btn-primary"><a href="http://www.etheses.rbru.ac.th/"> RBRU eTheses  </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://www.eresearch.rbru.ac.th/">  RBRU eReasearch  </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://www.learning.rbru.ac.th/"> RBRU eLearning </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://www.eculture.rbru.ac.th/"> RBRU eCulture </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://www.epub.rbru.ac.th/"> RBRU ePub </a></button>
+      <button type="button" class="btn btn-primary"><a href="http://portal.igpublish.com/iglibrary/">  IG Library  </a></button>
+
+  </div>
+  
+    `;
+  }
+}
+customElements.define('main-cccmenu', cccmenu);
 
 
 
